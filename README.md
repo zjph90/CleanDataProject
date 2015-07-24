@@ -2,11 +2,12 @@
 Getting and Cleaning Data course project
 
 Objectives : -
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement. 
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names. 
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement. 
+* Uses descriptive activity names to name the activities in the data set
+* Appropriately labels the data set with descriptive variable names. 
+* From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 
 To merge the 2 datasets first we combine columnwise (cbind) so that the Subject and Y values stay together.
 The x value columns are subsetted to include only those columns ending in mean() or std().

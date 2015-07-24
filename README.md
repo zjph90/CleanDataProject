@@ -14,3 +14,5 @@ The x value columns are subsetted to include only those columns ending in mean()
 The brackets are removed from the column headers.
 Once the full dataset is merged the consolidated, tidy dataset is created by first melting the dataset to create a "narrow" table
 then dcast to recombine to a "wide" table using the mean function to aggregate over the groupings of Subject and Activity.
+
+Information regarding the data can be found in the file features_info.txt
